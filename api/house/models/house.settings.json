@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "houses",
+  "info": {
+    "name": "house"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Address": {
+      "type": "string"
+    },
+    "Pincode": {
+      "type": "biginteger"
+    }
+  }
+}
